@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="192.013" tests="12" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Dell\cucu_WS\CucumberProject\target\test-classes;C:\Users\Dell\cucu_WS\CucumberProject\target\classes;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-junit\7.23.0\cucumber-junit-7.23.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\Dell\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire7946928030786037890\surefirebooter-20251021161216666_3.jar C:\Users\Dell\AppData\Local\Temp\surefire7946928030786037890 2025-10-21T16-12-16_452-jvmRun1 surefire-20251021161216666_1tmp surefire_0-20251021161216666_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\cucu_WS\CucumberProject\target\test-classes;C:\Users\Dell\cucu_WS\CucumberProject\target\classes;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-junit\7.23.0\cucumber-junit-7.23.0.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\Dell\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Dell\cucu_WS\CucumberProject"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire7946928030786037890\surefirebooter-20251021161216666_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9"/>
+    <property name="user.name" value="Dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.2+9"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\Dell\cucu_WS\CucumberProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Dell\Downloads\db_home\bin;C:\Users\Dell\Downloads\WINDOWS.X64_193000_db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Roaming\npm;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Markdown Monster;C:\Users\Dell\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="Login with valid credentials" classname="Login functionality" time="78.18">
+    <error message="timeout: Timed out receiving message from renderer: 14.440&#10;  (Session info: chrome=141.0.7390.54)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [06d0b63e5479847d4f183f7b4409f685, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62132/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 06d0b63e5479847d4f183f7b4409f685" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 14.440
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06d0b63e5479847d4f183f7b4409f685, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62132/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06d0b63e5479847d4f183f7b4409f685
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at hooks.myHooks.setup(myHooks.java:32)
+]]></error>
+    <system-out><![CDATA[
+Scenario Outline: Login with valid credentials                             &amp#27;[90m# src/test/resources/features/Login.feature:12&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.440
+        (Session info: chrome=141.0.7390.54)
+      Build info: version: '4.33.0', revision: '2c6aaad03a'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [06d0b63e5479847d4f183f7b4409f685, get {url=https://tutorialsninja.com/demo/}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62132}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62132/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 06d0b63e5479847d4f183f7b4409f685
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+      	at hooks.myHooks.setup(myHooks.java:32)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepDefiniations.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser enters valid email &amp#27;[0m&amp#27;[36m&amp#27;[1msanjidashaik@gmail.com&amp#27;[0m&amp#27;[36m into the email field&amp#27;[0m &amp#27;[90m# stepDefiniations.Login.user_enters_valid_email_into_the_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters valid password &amp#27;[0m&amp#27;[36m&amp#27;[1msanjida&amp#27;[0m&amp#27;[36m into password field&amp#27;[0m               &amp#27;[90m# stepDefiniations.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepDefiniations.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get successfully logged in&amp#27;[0m                              &amp#27;[90m# stepDefiniations.Login.user_should_get_successfully_logged_in()&amp#27;[0m
+
+    Embedding Login_with_valid_credentials [image/png 53102 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid credentials" classname="Login functionality" time="16.599">
+    <error message="timeout: Timed out receiving message from renderer: 14.168&#10;  (Session info: chrome=141.0.7390.54)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c7265f56d3af13cb2581b3808a1b28c4, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56158/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c7265f56d3af13cb2581b3808a1b28c4" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 14.168
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7265f56d3af13cb2581b3808a1b28c4, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56158/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7265f56d3af13cb2581b3808a1b28c4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at hooks.myHooks.setup(myHooks.java:32)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Login with invalid credentials                                   &amp#27;[90m# src/test/resources/features/Login.feature:15&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.168
+        (Session info: chrome=141.0.7390.54)
+      Build info: version: '4.33.0', revision: '2c6aaad03a'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [c7265f56d3af13cb2581b3808a1b28c4, get {url=https://tutorialsninja.com/demo/}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56158/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: c7265f56d3af13cb2581b3808a1b28c4
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+      	at hooks.myHooks.setup(myHooks.java:32)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepDefiniations.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser enters invalid email address  into email field&amp#27;[0m                 &amp#27;[90m# stepDefiniations.Login.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters invalid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"sanjida"&amp#27;[0m&amp#27;[36m into password field&amp#27;[0m           &amp#27;[90m# stepDefiniations.Login.user_enters_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepDefiniations.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefiniations.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+
+    Embedding Login_with_invalid_credentials [image/png 52734 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:13:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid email and invalid password" classname="Login functionality" time="16.45">
+    <error message="timeout: Timed out receiving message from renderer: 13.438&#10;  (Session info: chrome=141.0.7390.54)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e5bfff5bd479142e04df7c5c05951bbf, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58552}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58552/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e5bfff5bd479142e04df7c5c05951bbf" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 13.438
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5bfff5bd479142e04df7c5c05951bbf, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58552}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58552/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5bfff5bd479142e04df7c5c05951bbf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at hooks.myHooks.setup(myHooks.java:32)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Login with valid email and invalid password                        &amp#27;[90m# src/test/resources/features/Login.feature:22&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 13.438
+        (Session info: chrome=141.0.7390.54)
+      Build info: version: '4.33.0', revision: '2c6aaad03a'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [e5bfff5bd479142e04df7c5c05951bbf, get {url=https://tutorialsninja.com/demo/}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58552}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58552/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: e5bfff5bd479142e04df7c5c05951bbf
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+      	at hooks.myHooks.setup(myHooks.java:32)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser navigates to login page&amp#27;[0m                                         &amp#27;[90m# stepDefiniations.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser enters valid email &amp#27;[0m&amp#27;[36m&amp#27;[1m"sanjidashaik@gmail.com"&amp#27;[0m&amp#27;[36m into the email field&amp#27;[0m &amp#27;[90m# stepDefiniations.Login.user_enters_valid_email_into_the_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters invalid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"1234567890"&amp#27;[0m&amp#27;[36m into password field&amp#27;[0m          &amp#27;[90m# stepDefiniations.Login.user_enters_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on Login button&amp#27;[0m                                            &amp#27;[90m# stepDefiniations.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message about credentials mismatch&amp#27;[0m   &amp#27;[90m# stepDefiniations.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+
+    Embedding Login_with_valid_email_and_invalid_password [image/png 53272 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:13:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login with invalid email and valid password" classname="Login functionality" time="16.486">
+    <error message="timeout: Timed out receiving message from renderer: 14.224&#10;  (Session info: chrome=141.0.7390.54)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1e84061006f3473df64fd8c6437893ae, get {url=https://tutorialsninja.com/demo/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50671/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1e84061006f3473df64fd8c6437893ae" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 14.224
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e84061006f3473df64fd8c6437893ae, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50671/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e84061006f3473df64fd8c6437893ae
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at hooks.myHooks.setup(myHooks.java:32)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Login with invalid email and valid password                      &amp#27;[90m# src/test/resources/features/Login.feature:29&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.224
+        (Session info: chrome=141.0.7390.54)
+      Build info: version: '4.33.0', revision: '2c6aaad03a'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [1e84061006f3473df64fd8c6437893ae, get {url=https://tutorialsninja.com/demo/}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50671}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50671/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 1e84061006f3473df64fd8c6437893ae
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+      	at hooks.myHooks.setup(myHooks.java:32)&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepDefiniations.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser enters invalid email address  into email field&amp#27;[0m                 &amp#27;[90m# stepDefiniations.Login.user_enters_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser enters valid password &amp#27;[0m&amp#27;[36m&amp#27;[1m"12345"&amp#27;[0m&amp#27;[36m into password field&amp#27;[0m               &amp#27;[90m# stepDefiniations.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepDefiniations.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefiniations.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+
+    Embedding Login_with_invalid_email_and_valid_password [image/png 81235 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:14:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="Login without providing any credentails" classname="Login functionality" time="12.841">
+    <system-out><![CDATA[
+Scenario: Login without providing any credentails                          &amp#27;[90m# src/test/resources/features/Login.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to login page&amp#27;[0m                                       &amp#27;[90m# stepDefiniations.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter email address into email field&amp#27;[0m                      &amp#27;[90m# stepDefiniations.Login.user_dont_enter_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser dont enter password into password field&amp#27;[0m                         &amp#27;[90m# stepDefiniations.Login.user_dont_enter_password_into_password_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepDefiniations.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentials mismatch&amp#27;[0m &amp#27;[90m# stepDefiniations.Login.user_should_get_a_proper_warning_message_about_credentials_mismatch()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:14:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account only with mandatory fields" classname="Registration functionality" time="7.783">
+    <system-out><![CDATA[
+Scenario: User creates an account only with mandatory fields &amp#27;[90m# src/test/resources/features/Register.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m              &amp#27;[90m# stepDefiniations.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m             &amp#27;[90m# stepDefiniations.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | farzana    |
+    | lastName  | shaik      |
+    | telephone | 1234567890 |
+    | password  | 12345      |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                            &amp#27;[90m# stepDefiniations.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                         &amp#27;[90m# stepDefiniations.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m          &amp#27;[90m# stepDefiniations.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:14:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account with all fields" classname="Registration functionality" time="7.533">
+    <system-out><![CDATA[
+Scenario: User creates an account with all fields   &amp#27;[90m# src/test/resources/features/Register.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m     &amp#27;[90m# stepDefiniations.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m    &amp#27;[90m# stepDefiniations.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Renu       |
+    | lastName  | Das        |
+    | telephone | 1234567890 |
+    | password  | 12345      |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m               &amp#27;[90m# stepDefiniations.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                   &amp#27;[90m# stepDefiniations.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                &amp#27;[90m# stepDefiniations.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m &amp#27;[90m# stepDefiniations.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:14:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User creates a duplicate account" classname="Registration functionality" time="7.222">
+    <system-out><![CDATA[
+Scenario: User creates a duplicate account                            &amp#27;[90m# src/test/resources/features/Register.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                       &amp#27;[90m# stepDefiniations.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields with duplicate email&amp#27;[0m &amp#27;[90m# stepDefiniations.Register.user_enters_the_details_into_below_fields_with_duplicate_email(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | mounika              |
+    | lastName  | das                  |
+    | email     | mounikadas@gmail.com |
+    | telephone | 1234567890           |
+    | password  | 12345                |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for Newsletter&amp#27;[0m                                 &amp#27;[90m# stepDefiniations.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                                     &amp#27;[90m# stepDefiniations.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                  &amp#27;[90m# stepDefiniations.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning about duplicate email&amp#27;[0m         &amp#27;[90m# stepDefiniations.Register.user_should_get_a_proper_warning_about_duplicate_email()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:14:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User creates an account without filling any details" classname="Registration functionality" time="8.394">
+    <system-out><![CDATA[
+Scenario: User creates an account without filling any details            &amp#27;[90m# src/test/resources/features/Register.feature:39&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                          &amp#27;[90m# stepDefiniations.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any details into fields&amp#27;[0m                           &amp#27;[90m# stepDefiniations.Register.user_dont_enter_any_details_into_fields()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                     &amp#27;[90m# stepDefiniations.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get proper warning messages for every mandatory field&amp#27;[0m &amp#27;[90m# stepDefiniations.Register.user_should_get_proper_warning_messages_for_every_mandatory_field()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:15:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User searches for a valid product" classname="Search functionality" time="4.849">
+    <system-out><![CDATA[
+Scenario: User searches for a valid product                      &amp#27;[90m# src/test/resources/features/Search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                               &amp#27;[90m# stepDefiniations.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m      &amp#27;[90m# stepDefiniations.Search.user_enters_valid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepDefiniations.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get valid product displayed in search results&amp#27;[0m &amp#27;[90m# stepDefiniations.Search.user_should_get_valid_product_displayed_in_search_results()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:15:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User searches for an invalid product" classname="Search functionality" time="4.593">
+    <system-out><![CDATA[
+Scenario: User searches for an invalid product                   &amp#27;[90m# src/test/resources/features/Search.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                               &amp#27;[90m# stepDefiniations.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m &amp#27;[90m# stepDefiniations.Search.user_enters_invalid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepDefiniations.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m       &amp#27;[90m# stepDefiniations.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:15:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="User searches without any product" classname="Search functionality" time="3.964">
+    <system-out><![CDATA[
+Scenario: User searches without any product                   &amp#27;[90m# src/test/resources/features/Search.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                            &amp#27;[90m# stepDefiniations.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any product name into Search box field&amp#27;[0m &amp#27;[90m# stepDefiniations.Search.user_dont_enter_any_product_name_into_search_box_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                            &amp#27;[90m# stepDefiniations.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m    &amp#27;[90m# stepDefiniations.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 4:15:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+</testsuite>
